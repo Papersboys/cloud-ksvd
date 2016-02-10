@@ -1,0 +1,1 @@
+spark-submit ksvd_spark.py input/Y_2_10.txt input/edgeList.txt input/stochastic.txt --num-executors 6  --executor-memory 6G --executor-cores 6 --driver-memory 6G --master local[*]
